@@ -1,0 +1,40 @@
+body{
+    box-sizing: border-box;
+    background:url("background.jpg");
+    background-size: cover;
+}
+
+h1,section,p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Orbitron';
+}
+
+h1{
+    font-size:50px
+}
+
+input{
+    font-size:11px;
+    font-family: 'Orbitron';
+    font-weight:bold ;
+    color:black;
+    background:white;
+    height:40px;
+    margin-right: 5px;
+}
+
+.result{
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: 'Orbitron';
+    font-size: 20px;
+    width:20%;
+    height:40px;
+    background: white;
+    color: black;
+}

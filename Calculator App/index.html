@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <section>
+        <input id="numone" type="text" placeholder="Type 1st number">
+        <input type="button" value="Add" id="sum" onClick="addBy()"/>
+        <input type="button" value="Subtract" id="subtract" onClick="subtractBy()"/>
+        <input type="button" value="Multiply" id="multiply" onClick="multiplyBy()"/>
+        <input type="button" value="Divide" id="divide" onClick="divideBy()"/>
+        <input id="numtwo" type="text" placeholder="Type 2nd number">
+    </section>
+    <p>The Result is:</p>
+    <span class="result" id="result"></span>
+  <script src="main.js"></script>  
+</body>
+</html>
